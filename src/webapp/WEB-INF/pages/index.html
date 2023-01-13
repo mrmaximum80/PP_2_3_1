@@ -6,10 +6,13 @@
     <title></title>
 </head>
 <body>
-<div>
+<div style="text-align: center; color: darkred">
     <th:block th:each="msg : ${messages}">
         <h1 th:text="${msg}"></h1>
     </th:block>
 </div>
+<p style="text-align: center; color: green">
+    <a href="/users/default-users">Перейти к таблице пользователей</a>
+</p>
 </body>
 </html>
